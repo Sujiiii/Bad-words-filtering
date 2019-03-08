@@ -62,3 +62,7 @@ urlpatterns = [
     path('',views.getResult)
 ]
 ```
+![screenshot 90](https://user-images.githubusercontent.com/38497682/54049215-eb348900-4201-11e9-967e-e08745a70396.png)
+
+
+![screenshot 91](https://user-images.githubusercontent.com/38497682/54049218-eec81000-4201-11e9-91cc-d4667441b774.png)
