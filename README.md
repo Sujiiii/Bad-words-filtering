@@ -6,7 +6,7 @@ This project is built on top of django.
 
 **filter.py**
 
-'''python
+```python
 
 import os
 
@@ -25,11 +25,11 @@ def process_string(string,):
         else:
              result+=i+" "
     return result
-'''
+```
 
 **views.py**
 
-'''django
+```django
 
 from django.shortcuts import render
 from django.shortcuts import render
@@ -47,11 +47,11 @@ def getResult(request):
         print(response)
         return render(request, 'response.html', {"r": response})
         
-'''
+```
 
 **urls.py**
 
-'''django
+```django
 
 from django.contrib import admin
 from django.urls import path
@@ -61,7 +61,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.getResult)
 ]
-
-'''
-
-
+```
