@@ -29,7 +29,7 @@ def process_string(string,):
 
 **views.py**
 
-```django
+```python
 
 from django.shortcuts import render
 from django.shortcuts import render
@@ -51,7 +51,7 @@ def getResult(request):
 
 **urls.py**
 
-```django
+```python
 
 from django.contrib import admin
 from django.urls import path
